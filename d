@@ -30,7 +30,7 @@
   <div id="weather" class="weather">Ładowanie pogody...</div>
 
   <script>
-    const API_KEY = '2716cf81011cf5fbbce360998515d002'
+    const API_KEY = '2716cf81011cf5fbbce360998515d002'; //
 
     function getWeather(lat, lon) {
       const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&lang=pl&appid=${API_KEY}`;
